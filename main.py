@@ -30,7 +30,7 @@ class Example(QMainWindow):
 
         if self.doPaint:
             qp.setPen(QColor(0, 0, 0))
-            qp.setBrush(QColor(randint(1, 255), randint(1, 255), randint(1, 255)))
+            qp.setBrush(QColor(255, 255, 100))
             radius = randint(10, 250)
             qp.drawEllipse(randint(0, 600), randint(0, 600), radius, radius)
 
